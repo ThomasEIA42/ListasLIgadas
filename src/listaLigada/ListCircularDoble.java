@@ -32,7 +32,7 @@ public class ListCircularDoble<P> {
             System.out.print(actual.datos + " <-> ");
             actual = actual.next;
         } while (actual != cabeza);
-        System.out.println("(Cabeza)");
+        System.out.println("Cabeza");
     }
 
     public void recorrerReves() {
@@ -42,7 +42,7 @@ public class ListCircularDoble<P> {
             System.out.print(actual.datos + " <-> ");
             actual = actual.prev;
         } while (actual != cabeza.prev);
-        System.out.println("(Final)");
+        System.out.println("Final");
     }
 }
 
