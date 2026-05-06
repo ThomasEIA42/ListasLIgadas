@@ -7,7 +7,8 @@ public class ListCircularDoble<P> {
         this.tam = 0;
         this.cabeza = null;
     }
-    //Metodo insertar al principio y al final
+    //todo buscar, recorrr derecho y reves, eliminar, insertar cualquier pos
+
     public void insertar(P elemento) {
         NodoDoble<P> nuevo = new NodoDoble<>(elemento);
         if(cabeza == null) {
@@ -24,8 +25,6 @@ public class ListCircularDoble<P> {
         }
         tam++;
     }
-    //todo buscar, recorrr derecho y reves, eliminar, insertar cualquier pos
-
     public void recorrerDerecho() {
         if (cabeza == null) return;
         NodoDoble<P> actual = cabeza;
